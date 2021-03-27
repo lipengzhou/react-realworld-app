@@ -14,12 +14,12 @@ export default function HomePage () {
             <div class="feed-toggle">
               <ul class="nav nav-pills outline-active">
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="">
+                  <a class="nav-link disabled" href="/">
                     Your Feed
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="">
+                  <a class="nav-link active" href="/">
                     Global Feed
                   </a>
                 </li>
@@ -29,10 +29,10 @@ export default function HomePage () {
             <div class="article-preview">
               <div class="article-meta">
                 <a href="profile.html">
-                  <img src="http://i.imgur.com/Qr71crq.jpg" />
+                  <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" />
                 </a>
                 <div class="info">
-                  <a href="" class="author">
+                  <a href="/" class="author">
                     Eric Simons
                   </a>
                   <span class="date">January 20th</span>
@@ -41,7 +41,7 @@ export default function HomePage () {
                   <i class="ion-heart" /> 29
                 </button>
               </div>
-              <a href="" class="preview-link">
+              <a href="/" class="preview-link">
                 <h1>How to build webapps that scale</h1>
                 <p>This is the description for the post.</p>
                 <span>Read more...</span>
@@ -51,10 +51,10 @@ export default function HomePage () {
             <div class="article-preview">
               <div class="article-meta">
                 <a href="profile.html">
-                  <img src="http://i.imgur.com/N4VcUeJ.jpg" />
+                  <img alt="123" src="http://i.imgur.com/N4VcUeJ.jpg" />
                 </a>
                 <div class="info">
-                  <a href="" class="author">
+                  <a href="/" class="author">
                     Albert Pai
                   </a>
                   <span class="date">January 20th</span>
@@ -63,7 +63,7 @@ export default function HomePage () {
                   <i class="ion-heart" /> 32
                 </button>
               </div>
-              <a href="" class="preview-link">
+              <a href="/" class="preview-link">
                 <h1>The song you won't ever stop singing. No matter how hard you try.</h1>
                 <p>This is the description for the post.</p>
                 <span>Read more...</span>
@@ -76,28 +76,28 @@ export default function HomePage () {
               <p>Popular Tags</p>
 
               <div class="tag-list">
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   programming
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   javascript
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   emberjs
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   angularjs
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   react
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   mean
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   node
                 </a>
-                <a href="" class="tag-pill tag-default">
+                <a href="/" class="tag-pill tag-default">
                   rails
                 </a>
               </div>

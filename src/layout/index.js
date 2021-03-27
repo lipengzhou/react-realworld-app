@@ -1,4 +1,4 @@
-import { Route, useRouteMatch } from 'react-router-dom'
+import { NavLink, Route, useRouteMatch } from 'react-router-dom'
 import Home from '../views/Home'
 import Login from '../views/Login'
 import Settings from '../views/Settings'
@@ -11,32 +11,21 @@ export default function Layout () {
 
   return (
     <div>
-      <nav class="navbar navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
+      <nav className="navbar navbar-light">
+        <div className="container">
+          <a className="navbar-brand" href="index.html">
             conduit
           </a>
-          <ul class="nav navbar-nav pull-xs-right">
-            <li class="nav-item">
-              {/* Add "active" class when you're on that page" */}
-              <a class="nav-link active" href="">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">
-                <i class="ion-compose" />&nbsp;New Post
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">
-                <i class="ion-gear-a" />&nbsp;Settings
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">
+          <ul className="nav navbar-nav pull-xs-right">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/register" activeClassName="selected">
                 Sign up
-              </a>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/login" activeClassName="selected">
+                Sign in
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -69,11 +58,11 @@ export default function Layout () {
         <Profile />
       </Route>
       <footer>
-        <div class="container">
-          <a href="/" class="logo-font">
+        <div className="container">
+          <a href="/" className="logo-font">
             conduit
           </a>
-          <span class="attribution">
+          <span className="attribution">
             An interactive learning project from <a href="https://thinkster.io">Thinkster</a>. Code &amp; design
             licensed under MIT.
           </span>

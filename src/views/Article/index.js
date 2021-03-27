@@ -6,11 +6,11 @@ export default function Article () {
           <h1>How to build webapps that scale</h1>
 
           <div class="article-meta">
-            <a href="">
-              <img src="http://i.imgur.com/Qr71crq.jpg" />
+            <a href="/">
+              <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" />
             </a>
             <div class="info">
-              <a href="" class="author">
+              <a href="/" class="author">
                 Eric Simons
               </a>
               <span class="date">January 20th</span>
@@ -42,10 +42,10 @@ export default function Article () {
         <div class="article-actions">
           <div class="article-meta">
             <a href="profile.html">
-              <img src="http://i.imgur.com/Qr71crq.jpg" />
+              <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" />
             </a>
             <div class="info">
-              <a href="" class="author">
+              <a href="/" class="author">
                 Eric Simons
               </a>
               <span class="date">January 20th</span>
@@ -69,7 +69,7 @@ export default function Article () {
                 <textarea class="form-control" placeholder="Write a comment..." rows="3" />
               </div>
               <div class="card-footer">
-                <img src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
+                <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
                 <button class="btn btn-sm btn-primary">Post Comment</button>
               </div>
             </form>
@@ -79,11 +79,11 @@ export default function Article () {
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer">
-                <a href="" class="comment-author">
-                  <img src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
+                <a href="/" class="comment-author">
+                  <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
                 </a>
                 &nbsp;
-                <a href="" class="comment-author">
+                <a href="/" class="comment-author">
                   Jacob Schmidt
                 </a>
                 <span class="date-posted">Dec 29th</span>
@@ -95,11 +95,11 @@ export default function Article () {
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer">
-                <a href="" class="comment-author">
-                  <img src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
+                <a href="/" class="comment-author">
+                  <img alt="123" src="http://i.imgur.com/Qr71crq.jpg" class="comment-author-img" />
                 </a>
                 &nbsp;
-                <a href="" class="comment-author">
+                <a href="/" class="comment-author">
                   Jacob Schmidt
                 </a>
                 <span class="date-posted">Dec 29th</span>
